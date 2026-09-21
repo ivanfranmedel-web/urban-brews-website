@@ -29,7 +29,7 @@ A multi-page website for **Urban Brews**, a fictional neighbourhood coffee shop 
 | Name | Contribution |
 | --- | --- |
 | **Chaimae** | Home page (HTML), images |
-| **Ivan** | About Us page (HTML), stylesheet |
+| **Ivan** | About Us page (HTML), stylesheet, reviews|
 | **Jose Lo** | Login page (HTML), Join Us page (HTML), stylesheet |
 | **Oleksandr** | Server hosting |
 
