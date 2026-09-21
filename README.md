@@ -33,14 +33,7 @@ A multi-page website for **Urban Brews**, a fictional neighbourhood coffee shop 
 | **Jose Lo** | Login page (HTML), Join Us page (HTML), stylesheet |
 | **Oleksandr** | Server hosting |
 
-## Running it locally
 
-No installs needed. Download or clone the repo and open `index.html` in your browser.
-
-```bash
-git clone https://github.com/YOUR-USERNAME/YOUR-REPO-NAME.git
-cd YOUR-REPO-NAME
-```
 
 ## Project structure
 
@@ -56,6 +49,3 @@ cd YOUR-REPO-NAME
 └── img/
 ```
 
-## What I learned
-
-<!-- Add a few lines in your own words: what you found hard, what you'd do differently, skills you picked up. Recruiters love this part. -->
