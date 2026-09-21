@@ -1,0 +1,365 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+    background-color: #CBB799;
+    color: #6F4D38;
+    
+}
+header {
+    background-color: #CBB799 ;
+    color: #3D211A  ;
+    padding: 20px;
+    margin-left: -100px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header h1 {
+    margin: 0
+}
+nav {
+    display: flex;
+    background-color: #3D211A  ;
+    padding-top: 10px ;
+    padding-bottom: 10px ;
+    color: #fff;
+    justify-content: space-evenly;
+}
+nav a { 
+    color: #A07856 ;
+    text-decoration: none;
+    margin: 15px;
+    font-weight: bold;
+    color: #fff;
+
+}
+
+.nav{
+    padding: 10px;
+    margin-left: auto;
+}
+
+nav a:hover {
+    text-decoration: underline;
+
+}
+
+section{
+    background-color: #CBB799;
+    padding: 15px;
+    
+
+}
+
+.container {
+    padding: 20px;
+    max-width: 100%;
+    background-color: #A07856 ;
+    border-radius: 0;
+
+}
+
+
+footer {
+    background-color: #3D211A;
+    color: #fff;
+    padding: 8px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+    margin: auto;
+
+}
+
+/* Logo */
+.flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+.logo{
+    width: 100px;
+}
+
+/* Login Button */
+
+.login{
+    background-color: #6F4D38 ;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+}
+
+.login:hover{
+    border: 1px solid #fff;
+    background-color: orange;
+    color: black;
+}
+
+.login:focus {
+    border: 1px solid #fff;
+    color: white;
+}
+
+.login-link{
+    margin-right: auto;
+    margin-left: 10px;
+}
+
+/* Start of "Public Review" css */
+
+.review{
+    text-align: center;
+    color: #3D211A ;
+    margin: 2em;
+}
+.review-form{
+    text-align: center;
+    color: #3D211A ;
+    width:94%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 70px;
+}
+
+
+/* Start of "Join Us" css */
+
+.careers-article {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.careers-article section {
+    background-color: #CBB799;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    max-width: 80%;
+}
+
+.careers-article section form label{
+    color: #3D211A ;
+    font-weight: bold;
+    display: block;
+}
+
+.careers-article section h2{
+    color: #3D211A ;
+}
+
+.careers-article section p{
+    color: #3D211A ;
+}
+
+.careers-article button{
+    background-color:#B4886B;
+    border: 2px solid gray;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.careers-article button:focus {
+    outline: 2px solid gray;
+    font-weight: bold;
+    color: white;
+}
+
+.careers-article button:hover {
+    outline: 3px solid gray;
+    font-weight: bold;
+    background-color: orange;
+}
+
+
+/* Start of "Login" css */
+
+.login-article {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background: url(../img/wallpaper-6380532_960_720.webp);
+    height: 490px;
+}
+
+.login-article .form-container {
+    margin: auto;
+    background-color: #A07856;
+    width: 40%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.login-article h1{
+    color: #3D211A;
+    text-align: center;
+}
+
+.login-article button{
+    width: 50%;
+    margin: auto;
+
+}
+
+.login-article form{
+    text-align: center;
+    
+}
+
+.login-article form input{
+    width: 50%;
+    margin-bottom: 4px;
+}
+
+.login-article .form-container .Icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+  
+.fa:hover {
+      opacity: 0.7;
+}
+  
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+  
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+  
+.fa-google {
+    background: #dd4b39;
+    color: white;
+}
+  
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+  
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+  
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+
+/* Start of "About Us" css */
+
+.about-article{ 
+    margin: 15px;
+    margin-bottom: 80px;
+}
+
+.about-article section{
+    background-color: #CBB799;
+    padding: 15px;
+}
+
+.about-team-article{
+    margin: 15px;
+    text-align: center;
+}
+
+.about-team-article section{
+    background-color: #CBB799;
+    padding: 15px;
+}
+
+.about-team-article div{
+    width: 31%;
+    margin: 15px;
+    display: inline-block;
+}
+
+
+/* Start of "Menu" css */
+
+.menu-body{
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/60P9094.jpg);
+    background-color: #CBB799;
+}
+
+.menu-article{
+    padding-bottom: 100px;
+}
+.menu-article section{
+    background-color:#6F4D38;
+    width: 70%;
+    margin: auto;
+    border-radius: 0.5em;
+    margin-top: 2em;
+}
+
+.menu-article h2{
+    margin: auto;
+    margin-left: auto;
+    font-size: 2em;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 15px;
+    text-decoration: underline;
+}
+
+.menu-article p{
+    color: #ffffff;
+}
+
+/* Home css */
+
+
+.home-main .title{
+    text-align: center;
+    margin: 30px 0;
+}
+
+.home-main .title h1 {
+    font-size: 3em;
+    color: #5d4037;
+}
+
+
+.home-main .content {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.home-main .content .box {
+    width: 300px;
+    height: 200px;
+    color: #f9f4ed;
+    background-color: #5d4037;
+    border-radius: 5px;
+}
